@@ -1,0 +1,81 @@
+.wrapper
+	width: 800px
+	height: 500px
+	border: 2px solid black
+	border-radius: 30px
+	margin: 0 auto
+	box-shadow: 2px 2px 10px 5px grey
+	background-color: rgba(223, 243, 200, 0.5)
+
+body
+	background-image: url('contextfree-0-grid.png')
+	h1
+		width: 200px
+		height: auto
+		color:red
+		margin: 0 auto
+		padding: 20px 0
+
+.pitanje
+	padding-top: 20px
+	padding-bottom: 20px
+	margin-top: 20px
+	width: auto
+	height: 34px
+	// margin: 0 auto
+	font-size: 30px
+	text-align: center
+	border-radius: 20px
+	background-color: rgba(223, 243, 200, 0.4)
+
+.odgovor01
+	width: 300px
+	height: 50px
+	border: 2px solid white
+	background-color: rgba(223, 243, 200, 0.5)
+	border-radius: 10px
+	margin: 20px 40px
+	float: left
+	font-size:20px
+	text-align: center
+	line-height: 50px
+	&:hover
+		background-color: rgba(223, 243, 200, 0.8)
+		transition: 0.3s all linear
+
+.score
+	width: 100px
+	height: 100px
+	border: 1px solid white
+	margin-top:250px
+	margin-left: 50px
+	font-size: 80px
+	text-align:center
+	background-color: rgba(223, 243, 200, 0.8)
+
+.btn
+	float: right
+	margin-right: 50px
+	margin-top: -50px
+	padding: 5px
+
+.odgovor02
+	@extend .odgovor01
+
+.odgovor03
+	@extend .odgovor01
+
+.odgovor04
+	@extend .odgovor01
+
+.rez
+	width: 280px
+	height: 70px
+	border-radius: 20px
+	border: 2px solid white
+	margin: 0 auto
+	margin-top: -80px
+	background-color: rgba(223, 243, 200, 0.5)
+	font-size:30px
+	text-align: center
+	line-height: 70px
